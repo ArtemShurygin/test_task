@@ -1,0 +1,63 @@
+/*
+font-family: "CoFo Sans Regular";
+font-family: "CoFo Sans Medium";
+
+font-family: "Mabry Pro Regular";
+font-family: "Mabry Pro Medium";
+font-family: "Mabry Pro Bold";
+*/
+
+@font-face {
+	font-family: "CoFo Sans Regular";
+	font-style: normal;
+	font-weight: normal;
+	src: local("CoFo Sans Regular"),
+	local("CoFoSans-Regular"),
+	url("/fonts/CoFoSans/CoFoSans-Regular.woff2") format("woff2"),
+	url("/fonts/CoFoSans/CoFoSans-Regular.woff") format("woff"),
+	url("/fonts/CoFoSans/CoFoSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "CoFo Sans Medium";
+	font-style: normal;
+	font-weight: normal;
+	src: local("CoFo Sans Medium"),
+	local("CoFoSans-Medium"),
+	url("/fonts/CoFoSans/CoFoSans-Medium.woff2") format("woff2"),
+	url("/fonts/CoFoSans/CoFoSans-Medium.woff") format("woff"),
+	url("/fonts/CoFoSans/CoFoSans-Medium.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Mabry Pro Regular";
+	font-style: normal;
+	font-weight: normal;
+	src: local("Mabry Pro Regular"),
+	local("MabryPro-Regular"),
+	url("/fonts/MabryPro/MabryPro-Regular.woff2") format("woff2"),
+	url("/fonts/MabryPro/MabryPro-Regular.woff") format("woff"),
+	url("/fonts/MabryPro/MabryPro-Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Mabry Pro Medium";
+	font-style: normal;
+	font-weight: normal;
+	src: local("Mabry Pro Medium"),
+	local("MabryPro-Medium"),
+	url("/fonts/MabryPro/MabryPro-Medium.woff2") format("woff2"),
+	url("/fonts/MabryPro/MabryPro-Medium.woff") format("woff"),
+	url("/fonts/MabryPro/MabryPro-Medium.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Mabry Pro Bold";
+	font-style: normal;
+	font-weight: normal;
+	src: local("Mabry Pro Bold"),
+	local("MabryPro-Bold"),
+	url("/fonts/MabryPro/MabryPro-Bold.woff2") format("woff2"),
+	url("/fonts/MabryPro/MabryPro-Bold.woff") format("woff"),
+	url("/fonts/MabryPro/MabryPro-Bold.ttf") format("truetype");
+}
